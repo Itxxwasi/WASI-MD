@@ -55,4 +55,4 @@ function keepAlive() {
 }
 
 
-export default connect
+export default connec
