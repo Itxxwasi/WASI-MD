@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
  const senderNumber = m.sender.replace(/[^0-9]/g, ''); 
   const session = `GURUBOT${senderNumber}`;
-  const uid = encodeURIComponent(session);
+  const uid = encodeURIComponent(sessions);
   const msg = encodeURIComponent(text);
   
   const res = await fetch(`https://qin-guru-rin-indratensei.cloud.okteto.net/dm?message=${msg}&conversationID=${uid}`);
