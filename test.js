@@ -17,7 +17,7 @@ for (let folder of folders)
         files.push(path.resolve(path.join(folder, file)))
 for (let file of files) {
     if (file == __filename) continue
-    console.error('Checking', file)
+    console.error('Checking...', file)
     const error = syntaxError(fs.readFileSync(file, 'utf8'), file, {
         sourceType: 'module',
         allowReturnOutsideFunction: true,
