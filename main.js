@@ -196,32 +196,31 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase()
 }
 
-  if (connection === "open") {
-const {
+    if (connection === "open") {
+    const {
         jid,
 	name
-   } = conn.user;
+    } = conn.user;
 	
-  let msgf = 'Hii😍${name} Congrats Bruh you have successfully deployed 🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️\nJOIN SUPPORT GROUP\nhttps://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS';
+    let msgf = 'Hii😍${name} Congrats Bruh you have successfully deployed 🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️\nJOIN SUPPORT GROUP\nhttps://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS';
 
-  let gmes = conn.sendMessage (jid, {
+    let gmes = conn.sendMessage (jid, {
 	text: msgf,
 	mentions: [jid]
-   }, {
+    }, {
        quoted: null
-  });
+    });
 
 
-       conn.logger.info(chalk.yellow('\n🚩 R E A D Y'));
-  
+    conn.logger.info(chalk.yellow('\n🚩 R E A D Y'));
 } 
 
 
-       if (connection == 'close') {
-           conn.logger.error(chalk.yellow('\nconnection closed.... Trying to Restart'));
-           process.send('reset')
-     }       
- }
+    if (connection == 'close') {
+        conn.logger.error(chalk.yellow('\nconnection closed.... Trying to Restart'));
+        process.send('reset')
+    }       
+}
 
 
 process.on('uncaughtException', console.error)
