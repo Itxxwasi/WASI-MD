@@ -9,7 +9,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   m.react('🗣️');
 
  const senderNumber = m.sender.replace(/[^0-9]/g, ''); 
-  const session = `GURUBOT${senderNumber}`;
+  const sessions = `GURUBOT${senderNumber}`;
   const uid = encodeURIComponent(sessions);
   const msg = encodeURIComponent(text);
   
