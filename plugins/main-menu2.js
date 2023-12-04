@@ -39,7 +39,6 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = ` *🛡️PЯINCΣ-BOT-MÐ🛡️*
 
 
-
 ╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ⊱━╮
 │
 │🕋✫ - 「${usedPrefix}𝘘𝘶𝘳𝘢𝘯𝘮𝘦𝘯𝘶
@@ -53,16 +52,12 @@ let str = ` *🛡️PЯINCΣ-BOT-MÐ🛡️*
 │🎉✫ - 「${usedPrefix}𝘍𝘶𝘯𝘮𝘦𝘯𝘶 
 │🎮✫ - 「${usedPrefix}𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶
 │🎩✫ - 「${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
-│
-│
 │ *${usedPrefix}Mᴇɴᴜ2 ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
 │
 │ *${greeting}*
-│ 
-│📚 *_Quote of the day: ${quote}_* 📚
-│
-│
-╰━━━━━━━━━━━━━━━━━━━━━━━━╯`
+╰━━━━━━━━━━━━━━━━━━━━━━━━╯
+📚 *_Quote of the day: ${quote}_* 📚
+`
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false)
@@ -71,7 +66,7 @@ let str = ` *🛡️PЯINCΣ-BOT-MÐ🛡️*
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu', 'help','h','command'] 
+handler.command = ['menu', 'help','h','commands'] 
 
 export default handler
 function clockString(ms) {
@@ -88,7 +83,7 @@ function clockString(ms) {
       }
       if (time >= 10) {
         res = "Good Afternoon ☀️"
-      }
+     }
       if (time >= 15) {
         res = "Good Afternoon 🌇"
       }
