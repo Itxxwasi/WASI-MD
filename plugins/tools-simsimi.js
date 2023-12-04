@@ -31,7 +31,7 @@ m.reply(reply);
 };
 
 handler.help = ['bot'];
-handler.tags = ['fun'];
+handler.tags = ['ai'];
 handler.command = ['bot', 'alexa'];
 
 export default handler;
