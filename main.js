@@ -197,7 +197,7 @@ async function connectionUpdate(update) {
 }
 
   if (connection === "open") {
-	const {
+const {
         jid,
 	name
    } conn.user;
