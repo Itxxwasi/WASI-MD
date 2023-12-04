@@ -196,6 +196,7 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase()
 }
 
+async function connectionUpdate(update) {
   if (connection === "open") {
 	const {
         jid,
