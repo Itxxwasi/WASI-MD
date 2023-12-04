@@ -200,7 +200,7 @@ async function connectionUpdate(update) {
 const {
         jid,
 	name
-   } conn.user;
+   } = conn.user;
 	
   let msgf = 'Hii😍${name} Congrats Bruh you have successfully deployed 🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️\nJOIN SUPPORT GROUP\nhttps://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS';
 
