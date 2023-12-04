@@ -195,7 +195,6 @@ async function connectionUpdate(update) {
   
   if (global.db.data == null) loadDatabase()
 }
-
     if (connection === "open") {
     const {
         jid,
@@ -211,19 +210,16 @@ async function connectionUpdate(update) {
        quoted: null
     });
 
-
     conn.logger.info(chalk.yellow('\n🚩 R E A D Y'));
 } 
-
 
     if (connection == 'close') {
         conn.logger.error(chalk.yellow('\nconnection closed.... Trying to Restart'));
         process.send('reset')
     }       
 
-
-
 }
+
 process.on('uncaughtException', console.error)
 // let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
 
