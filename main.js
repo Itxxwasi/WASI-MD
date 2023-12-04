@@ -220,7 +220,7 @@ async function connectionUpdate(update) {
 
 }
 
-process.on('uncaughtException', console.error)
+process.on('uncaughtException', console.error);
 // let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
 
 let isInit = true;
