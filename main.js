@@ -218,8 +218,7 @@ const {
        if (connection == 'close') {
            conn.logger.error(chalk.yellow('\nconnection closed.... Trying to Restart'));
            process.send('reset')
-       }
-   } 
+       } 
 
 
 process.on('uncaughtException', console.error)
