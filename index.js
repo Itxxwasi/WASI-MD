@@ -21,7 +21,7 @@ say('Prince bot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`Prince-bot By GDS Ig: @The Prince bot`, {
+say(`Prince-bot By GDS`, {
   font: 'console',
   align: 'center',
   gradient: ['cyan', 'magenta']
