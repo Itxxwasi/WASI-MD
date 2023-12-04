@@ -38,14 +38,15 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.botname = 'PЯINCΣ-BOT-MÐ'
+global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
 global.packname = 'Prince┃ᴮᴼᵀ' 
 global.author = '@Prince' 
-global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
-global.dygp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
+global.princeig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
+global.princegp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
 global.menuvid = 'https://i.imgur.com/QzqvOW0.mp4'
-global.fgsc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
-global.fgyt = 'https://youtube.com/'
-global.fglog = 'https://i.imgur.com/cUvIv5w.jpeg'
+global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
+global.princeyt = 'https://youtube.com/'
+global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
 global.thumb = fs.readFileSync('./Assets/Prince.png')
 
 global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
