@@ -207,19 +207,21 @@ const {
   let gmes = conn.sendMessage (jid, {
 	text: msgf,
 	mentions: [jid]
-  }, {
+   }, {
        quoted: null
   });
 
 
-   conn.logger.info(chalk.yellow('\n🚩 R E A D Y'));
-  {
+       conn.logger.info(chalk.yellow('\n🚩 R E A D Y'));
+  
+} 
+
 
        if (connection == 'close') {
            conn.logger.error(chalk.yellow('\nconnection closed.... Trying to Restart'));
            process.send('reset')
 	       
-   }
+ }
 
 
 process.on('uncaughtException', console.error)
