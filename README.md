@@ -62,5 +62,10 @@ $ npm start
 2. Wait for the to start...
 3. Scan the QR code from the second device. (Go to WhatsApp > Linked Devices > Link a Device) 
 ---------
-Thanks Design Baad main krdunga bruh 
+
+<h2 align="left">All Credits To Guru bruh</h2>
+
+<a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="70" height="70" alt="Guru322"/></a>
+  
+`GURU-bhay Guru322`
 
