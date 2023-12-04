@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Princegds786/THE-PRINCE-BOT",
+    "homepage": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
     "author": {
         "name": "PRINCE"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Princegds786/THE-PRINCE-BOT.git"
+        "url": "git+https://github.com/PRINCE-GDS/THE-PRINCE-BOT.git"
     },
     "bugs": {
-        "url": "https://github.com/Princegds786/THE-PRINCE-BOT/issues"
+        "url": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
