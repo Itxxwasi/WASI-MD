@@ -220,9 +220,10 @@ async function connectionUpdate(update) {
         conn.logger.error(chalk.yellow('\nconnection closed.... Trying to Restart'));
         process.send('reset')
     }       
+
+
+
 }
-
-
 process.on('uncaughtException', console.error)
 // let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
 
