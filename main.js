@@ -196,7 +196,6 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase()
 }
 
-async function connectionUpdate(update) {
   if (connection === "open") {
 	const {
         jid,
@@ -208,7 +207,7 @@ async function connectionUpdate(update) {
   let gmes = conn.sendMessage (jid, {
 	text: msgf,
 	mentions: [jid]
-  }, }
+  }, {
        quoted: null
   });
 
