@@ -17,6 +17,7 @@ import { format } from 'util';
 import { makeWASocket, protoType, serialize } from './lib/simple.js';
 import { Low, JSONFile } from 'lowdb';
 import pino from 'pino';
+import crypto from 'crypto';
 import { mongoDB, mongoDBV2 } from './lib/mongoDB.js';
 import store from './lib/store.js'
 import processTxtAndSaveCredentials from './lib/makesession.js';
@@ -199,7 +200,7 @@ async function connectionUpdate(update) {
 	name
     } = conn.user;
 	
-    let msgf = 'Hii😍${name} Congrats Bruh you have successfully deployed 🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️\nJOIN SUPPORT GROUP\nhttps://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS';
+    let msgf = 'Hii😍 ${name} @user Congrats Bruh you have successfully deployed 🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️\nJOIN SUPPORT GROUP\nhttps://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS';
 
     let gmes = conn.sendMessage (jid, {
 	text: msgf,
@@ -293,12 +294,12 @@ global.reload = async (_ev, filename) => {
   if (pluginFilter(filename)) {
     let dir = global.__filename(join(pluginFolder, filename), true)
     if (filename in global.plugins) {
-      if (existsSync(dir)) conn.logger.info(`🌟 Plugin Actualizado - '${filename}'`)
+      if (existsSync(dir)) conn.logger.info(`🌟 Plugin Up-to-date - '${filename}'`)
       else {
-        conn.logger.warn(`🗑️ Plugin Eliminado - '${filename}'`)
+        conn.logger.warn(`🗑️ Plugin Deleted - '${filename}'`)
         return delete global.plugins[filename]
       }
-    } else conn.logger.info(`✨ Nuevo plugin - '${filename}'`)
+    } else conn.logger.info(`✨ New plugin - '${filename}'`)
     let err = syntaxerror(readFileSync(dir), filename, {
       sourceType: 'module',
       allowAwaitOutsideFunction: true
