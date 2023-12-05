@@ -16,21 +16,21 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-╭━⊱│✫-「🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️」-✫│⊱━╮
+╭⊱✫🛡️ᑭᖇIᑎᑕᕮ ᗷOT🛡️✫⊱╮
 │✫ - 📂 Repository Name: ${repoData.name}
 │✫ - 📃 Description: ${repoData.description}
 │✫ - 🛡️ Owner: ${repoData.owner.login}
 │✫ - ⭐ Stars: ${repoData.stargazers_count}
 │✫ - 💌Forks: ${repoData.forks_count}
 │✫ - 🌐 URL: ${repoData.html_url}
-╰━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━╯
       `.trim();
 
       // Send the formatted information as a message
       await conn.relayMessage(m.chat,  {
         requestPaymentMessage: {
-          currencyCodeIso4217: 'Rupees',
-          amount1000: 69000,
+          currencyCodeIso4217: 'Rupee',
+          amount1000: 10000,
           requestFrom: m.sender,
           noteMessage: {
           extendedTextMessage: {
