@@ -17,12 +17,12 @@ let handler = async function (m, { conn, __dirname }) {
       // Format the repository information with emojis
       const formattedInfo = `
 ╭⊱✫🛡️ᑭᖇIᑎᑕᕮ ᗷOT🛡️✫⊱╮
-│✫ - 📂 Repository Name: ${repoData.name}
-│✫ - 📃 Description: ${repoData.description}
-│✫ - 🛡️ Owner: ${repoData.owner.login}
-│✫ - ⭐ Stars: ${repoData.stargazers_count}
-│✫ - 💌Forks: ${repoData.forks_count}
-│✫ - 🌐 URL: ${repoData.html_url}
+│✫ - *📂Repository Name: ${repoData.name}*
+│✫ - *📃Description: ${repoData.description}*
+│✫ - *🛡️Owner: ${repoData.owner.login}*
+│✫ - *⭐Stars: ${repoData.stargazers_count}*
+│✫ - *💌Forks: ${repoData.forks_count}*
+│✫ - *🌐 URL: ${repoData.html_url}*
 ╰━━━━━━━━━━━━━━━━━╯
       `.trim();
 
