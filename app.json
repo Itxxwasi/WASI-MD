@@ -1,15 +1,14 @@
 {
-  "name": "THE-PRINCE-BOT",
-  "description": "Customizable WhatsApp Bot",
+  "name": "whatsapp-bot (PRINCE-BOT)",
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
   "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
-  "logo": "https://i.imgur.com/SJz50Rs.jpeg",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "prince-bot-md", "prince-bot"]
-
-"repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
   "stack": "container",
   "env": {
       "OPENAI_API_KEY": {
-      "description": "Put openai apikey",
+      "description": "openai apikey",
       "required": false,
       "value": ""
     },
