@@ -21,6 +21,6 @@ const handler = async (m, { conn }) => {
 
 handler.help = ['animequote'];
 handler.tags = ['internet'];
-handler.command = /^(animequote|q|quote)$/i;
+handler.command = /^(quotes|q|quote)$/i;
 
 export default handler;
