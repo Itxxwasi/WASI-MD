@@ -200,7 +200,7 @@ async function connectionUpdate(update) {
 	name
     } = conn.user;
 	
-    let msgf = `Hᴇʏ${name}👋🏻Wᴇʟᴄᴏᴍᴇ ᴛᴏ 🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ 🛡️ \n\nYᴏᴜ ʜᴀᴠᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇᴘʟᴏʏᴇᴅ✅\nFᴏʀ ᴍᴏʀᴇ ϙᴜᴇʀʏ\nᴊᴏɪɴ ᴍʏ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ\nhttps://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS\nIғ ʏᴏᴜ ʟɪᴋʀᴇ ᴛʜᴇ BOT Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ᴀ sᴛᴀʀ ᴛᴏ ᴍʏ ʀᴇᴘᴏ\n\nENJOY💥💫`;
+    let msgf = `Hᴇʏ${name}👋🏻Wᴇʟᴄᴏᴍᴇ ᴛᴏ\n🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ 🛡️ \n\nYᴏᴜ ʜᴀᴠᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇᴘʟᴏʏᴇᴅ✅\nFᴏʀ ᴍᴏʀᴇ ϙᴜᴇʀʏ\nᴊᴏɪɴ ᴍʏ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ\nhttps://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS\nIғ ʏᴏᴜ ʟɪᴋʀᴇ ᴛʜᴇ BOT Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ᴀ sᴛᴀʀ ᴛᴏ ᴍʏ ʀᴇᴘᴏ\n\nENJOY💥💫`;
     let gmes = conn.sendMessage (jid, {
 	text: msgf,
 	mentions: [jid]
