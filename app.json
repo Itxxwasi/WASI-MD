@@ -8,11 +8,6 @@
 "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
   "stack": "container",
   "env": {
-    "DATABASE_URL": {
-      "description": "your mongodb database url",
-      "required": false,
-      "value": ""
-    },
       "OPENAI_API_KEY": {
       "description": "openai apikey",
       "required": false,
