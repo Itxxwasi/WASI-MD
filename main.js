@@ -193,8 +193,6 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date;
   }
   
-  if (global.db.data == null) loadDatabase()
-}
     if (connection === "open") {
     const {
         jid,
@@ -216,8 +214,9 @@ async function connectionUpdate(update) {
     if (connection == 'close') {
         conn.logger.error(chalk.yellow('\nconnection closed.... Trying to Restart'));
         process.send('reset')
-           
+    }
 
+if (global.db.data == null) loadDatabase()
 }
 
 process.on('uncaughtException', console.error);
