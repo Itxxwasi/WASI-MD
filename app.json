@@ -9,7 +9,7 @@
   "stack": "container",
   "env": {
       "OPENAI_API_KEY": {
-      "description": "openai apikey",
+      "description": "Put openai apikey",
       "required": false,
       "value": ""
     },
