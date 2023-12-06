@@ -1,16 +1,11 @@
 import fs from 'fs';
 import os from 'os';
 import fetch from 'node-fetch';
-import yts from 'youtube-yts';
 
 let limit = 500;
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
   let chat = global.db.data.chats[m.chat];
-	
- if (!args[0] && m.quoted && m.quoted.text) {
-  args[0] = m.quoted.text;
-}
-if (!args[0] && !m.quoted) throw `✳️ Example:\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI`;
+  if (!args || !args[0]) throw `✳️ Example:\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI`;
   if (!args[0].match(/youtu/gi)) throw `❎ Verify that the YouTube link`;
 
 	
@@ -27,7 +22,7 @@ if (!args[0] && !m.quoted) throw `✳️ Example:\n${usedPrefix + command} https
 
 m.react("♻️")
 
-  const caption = `✼ ••๑⋯❀ Y O U T U B E ❀⋯⋅๑•• ✼
+  const caption = `*╭━━⊱│✫ - 「 Y O U T U B E 」 - ✫│⊱━━╮*
 	  
   ❏ Title: ${data.result.title}
   ❏ Channel: ${data.result.channel}
@@ -36,7 +31,7 @@ m.react("♻️")
   ❒ Upload: ${data.result.publicDate}
   ❒ Link: ${args[0]}
   
-  ⊱─━⊱༻●༺⊰━─⊰`
+  ╰━━━━━━━━━━━━━━━━━━━━━━╯`
 
 
   let vid = await fetch(gapi)
