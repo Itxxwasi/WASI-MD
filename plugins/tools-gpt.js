@@ -56,6 +56,6 @@ m.react("❌")
   }
 }
 handler.command = /^(openai|ai)$/i;
-handler.help = ["ai", "openai"].map(v => v + " <texts>");
-handler.tags = ["internet"];
+handler.help = ["gpt", "openai", "chatgpt"].map(v => v + " <texts>");
+handler.tags = ["Study"];
 export default handler;
