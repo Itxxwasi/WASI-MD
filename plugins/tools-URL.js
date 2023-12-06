@@ -42,7 +42,7 @@ let handler = async (m) => {
   fs.unlinkSync(mediaPath);
 };
 
-handler.help = ['tourl'];
+handler.help = ['url'];
 handler.tags = ['tools'];
 handler.command = ['url'];
 
