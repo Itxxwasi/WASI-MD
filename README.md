@@ -1,4 +1,4 @@
-###### There are bugs in this bot I am working on it to fix them soon as possible 
+<h1 align="left">There are bugs in this bot I am working on it to fix them soon as possible </h1>
  
  
  <p align="center">  
