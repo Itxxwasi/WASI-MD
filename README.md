@@ -10,7 +10,7 @@
 <a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT"><img title="Author" src="https://img.shields.io/badge/THE PRINCE BOT-black?style=for-the-badge&logo=github"></a>
 <p/>
  
-<h2 align="center">🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️</h2>
+<h1 align="center">🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️</h1>
 
 <h2 align="left">ＳＥＳＳＩＯＮ ＩＤ (ＰＡＩＲ ＣＯＤＥ)</h2>
 <p align="left">
@@ -22,9 +22,9 @@
 
 
 
-<h2 align="left">ÐΣPLOY TO HΣЯOKU</h2> 
+<h1 align="left">ÐΣPLOY TO HΣЯOKU</h1> 
 
-#### 1. If You don't have an account in Heroku. Create a account.
+#### 1. If You don't have an account in Heroku. Create an account.
 <br>
        <p align="left"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
@@ -33,7 +33,7 @@
 
 
 
-<h2 align="left">suᴘᴘoʀт ԍʀouᴘ ʟιɴκ</h2>
+<h1 align="left">suᴘᴘoʀт ԍʀouᴘ ʟιɴκ</h1>
 
 
 
