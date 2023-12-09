@@ -5,14 +5,16 @@ let pp = './Assets/study.jpg'
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let lkr = `┌──•✧📚 *STUDY MENU* 📚✧•──┐
-┊ ꒰ ͜͡➸${usedPrefix}Surah 36
-┊ ꒰ ͜͡➸${usedPrefix}quranmenu  get surah numbers
-┊ ꒰ ͜͡➸${usedPrefix}gpt   Dastageer name mean?
-┊ ꒰ ͜͡➸${usedPrefix}ai    any questions like above.
-┊ ꒰ ͜͡➸${usedPrefix}define   type word.
-┊ ꒰ ͜͡➸${usedPrefix}element   element name.
-┊ ꒰ ͜͡➸${usedPrefix}quote/q  type it to get quote.
-┊ ꒰ ͜͡➸${usedPrefix}aisearch  get current time detail.
+┊ ꒰ ͜͡➸${usedPrefix}quranmenu
+┊ ꒰ ͜͡➸${usedPrefix}Surah 36  
+┊ ꒰ ͜͡➸${usedPrefix}gpt
+┊ ꒰ ͜͡➸${usedPrefix}ai    
+┊ ꒰ ͜͡➸${usedPrefix}bing  
+┊ ꒰ ͜͡➸${usedPrefix}bard 
+┊ ꒰ ͜͡➸${usedPrefix}quote/q  
+┊ ꒰ ͜͡➸${usedPrefix}aisearch 
+┊ ꒰ ͜͡➸${usedPrefix}define
+┊ ꒰ ͜͡➸${usedPrefix}element
 └──♥️•✧✧✧✧✧✧✧✧✧✧•♥️──┘`
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react(done)
