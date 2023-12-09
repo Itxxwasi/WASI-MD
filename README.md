@@ -1,6 +1,3 @@
-<h1 align="left">There are bugs in this bot I am working on it to fix them soon as possible </h1>
- 
- 
  <p align="center">  
   <a href="">
     <img alt="PRINCE" width="600" height="350" src="https://i.imgur.com/iI086tX.jpeg">
