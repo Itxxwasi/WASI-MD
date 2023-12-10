@@ -5,7 +5,7 @@ import ytdl from 'youtubedl-core';
 import axios from 'axios';
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw '*[🪩]please enter a link / YouTube link.*';
+  if (!args[0]) throw '*🪩Please enter a link / YouTube link.*';
   let enviando;
   if (enviando) return  
       enviando = true    
