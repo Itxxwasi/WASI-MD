@@ -87,6 +87,7 @@
         "similarity": "^1.2.1",
         "g-i-s": "^2.1.6",
         "google-it": "^1.6.4",
+        "@sasmeee/igdl": "npm:@sasmeee/igdl",
          "sagiri": "*",
         "sharp": "^0.30.5",
         "socket.io": "^4.5.2",
