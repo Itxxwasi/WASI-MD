@@ -40,52 +40,42 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   
   let neww = performance.now()
   let speed = neww - old
+  let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Assets/Prince.png')
+let user = global.db.data.users[who]
   
 let infobt = `
 ≡ *INFO BOT*
   
-*ESTADO*
-▢ *${groupsIn.length}* Chats de grupo
-▢ *${groupsIn.length}* Gropos unidos
-▢ *${groupsIn.length - groupsIn.length}* Grupos abandonados
-▢ *${chats.length - groupsIn.length}* Chats privados
+*STATE*
+▢ *${groupsIn.length}* GROUP CHATS
+▢ *${groupsIn.length}* united groups
+▢ *${groupsIn.length - groupsIn.length}* abandoned groups
+▢ *${chats.length - groupsIn.length}* private chats
 ▢ *${chats.length}* Total Chats
 
-*≡ OWNER*
-  *FG98*
-▢ Instagram :
-  • https://instagram.com/fg98_ff
-▢ WhatsApp :
-  • (escribe solo si es necesario) 
-▢ GitHub :
-  • https://github.com/FG98F
-▢ Telegram : 
-  • t.me/fgsupp_bot (FG) 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ YouTube : 
-  • https://youtube.com/fg98f
+*≡ OWNER🧑‍💻*
+ _PRINCE GDS_
+▢ MY CONTACT NUMBER.
+  wa.me/923042205427
   
- *≡ HELPERS*
-  *CRISS*
-▢ Instagram : https://www.instagram.com/sayurizuniga3
-▢ WhatsApp : wa.me/
-  *ANDREA*
-▢ Instagram : https://
-▢ WhatsApp : wa.me/573125484672
+▢ MY BOT GC LINK.
+  https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
-*≡  NodeJS Uso de memoria*
+*≡  NodeJS memory *
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
-m.reply(infobt)
+conn.sendFile(m.chat, pp, 'prefil.jpg', infobt, m, false, { mentions: [who] })
+m.react(done)
 
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'botinfo']
+handler.command = ['info', 'infobot', 'botinfo', 'bot']
 
 export default handler
