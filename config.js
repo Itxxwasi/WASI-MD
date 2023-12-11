@@ -5,7 +5,7 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923042205427', 'Prince', true],
+  ['923042205427', 'Prince', false],
   [''], 
   [''],
 ]
@@ -39,9 +39,9 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.botname = 'PЯINCΣ-BOT-MÐ'
 global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
-global.packname = 'Prince┃ᴮᴼᵀ' 
-global.author = '@Prince' 
-global.princeig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
+global.packname = 'Prince♥️' 
+global.author = 'Prince♥️' 
+global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
 global.menuvid = 'https://i.imgur.com/QzqvOW0.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
