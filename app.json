@@ -16,6 +16,21 @@
       "description": "openai organisation id",
       "required": false,
       "value": "null"
+      },
+     "MODE": {
+      "description": "mode public or private",
+      "required": true,
+      "value": "public"
+       },
+    "statusview": {
+      "description": "make it true if you want bot to view status",
+      "required": false,
+      "value": ""
+    },
+    "autoRead": {
+      "description": "make it true if you want bot to read messages",
+      "required": false,
+      "value": ""
     },
     "SESSION_ID": {
       "description": "your session id",
