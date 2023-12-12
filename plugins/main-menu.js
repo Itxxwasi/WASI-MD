@@ -15,11 +15,11 @@ import {
  
  const defaultMenu = {
   before: `
-  │✫ - 「 ${botname} 」 - ✫│\n
+  │✫ - 「🛡️ ${botname} 🛡️」 - ✫│\n
   
  
  
-  ╭━━⊱───『 *I N F O*』───⊱━━╮
+  ╭━━⊱『 *I N F O*』⊱━━╮
   ⛥ *Mode:* %mode
   ⛥ *Platform:* %platform
   ⛥ *Type:* NodeJs
@@ -27,22 +27,21 @@ import {
   ⛥ *Prefix:* [ *%_p* ]
   ⛥ *Uptime:* %muptime
   ⛥ *Database:*  %totalreg
-  ╰──────────☆★
+  ╰━━━━━━━━━━━━━━━╯
   
-  ╭━━⊱「 *U S E R*」⊱━━╮
+ ╭━━⊱「 *U S E R*」⊱━━╮
  ⛥ *Name:* %name
- ★☆★☆★☆★☆★☆★☆★
  ╰━━━━━━━━━━━━━━━╯
  
  *%ucpn*
   
-  🤍───『 *I N F O  C M D*』───🤍 
+  ╭━━⊱『 *I N F O  C M D*』⊱━━╮ 
   │ *%totalfeatures* Commands
   ╰──────────☆★
  %readmore
  `.trimStart(),
- header: "★╭━━⊱ 「 *%category* 」⊱━━╮★",
- body: "◈ %cmd %isPremium %islimit",
+ header: "╭━━⊱ 「 *%category* 」⊱━━╮",
+ body: "  │✫ -  %cmd %isPremium %islimit",
  footer: "╰━━━━━━━━━━━━━━━╯",
  after: "\n%me",
  
@@ -184,14 +183,14 @@ import {
  let contact = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
  
   conn.sendMessage(m.chat, { video: { url: menuvid }, caption: text.trim(),  gifPlayback: true,
-  gifAttribution: 0}, { quoted: contact })
+  gifAttribution: 0}, { quoted: m })
 
   } catch (e) {
    await conn.reply(m.chat, " error", m)
    throw e
   }
  }
- handler.command = /^(menu2|h2|help2|\?)$/i
+ handler.command = /^(menu2|h2|hh|help2|\?)$/i
  
 
  
