@@ -8,30 +8,20 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   
   m.react('🗣️');
 
- const senderNumber = m.sender.replace(/[^0-9]/g, ''); 
-  const sessions = `GURUBOT${senderNumber}`;
-  const uid = encodeURIComponent(sessions);
   const msg = encodeURIComponent(text);
   
-  const res = await fetch(`https://qin-guru-rin-indratensei.cloud.okteto.net/dm?message=${msg}&conversationID=${uid}`);
+  const res = await fetch(`https://ultimetron.guruapi.tech/gpt3?prompt=${msg}`);
+
   const json = await res.json();
   
   
-    let reply = json.response;
-      if (reply) {
-    reply = reply.replace(/Clyde/gi, 'Guru Bot');
-    reply = reply.replace(/ladiboi/gi, name);
-    reply = reply.replace(/discord|OpenAI/gi, 'Guru-Botz');
-    reply = reply.replace(/surbhisayshi/gi, 'Guru');
-    reply = reply.replace(/\bthe server\b/gi, 'me'); 
-    reply = reply.replace(/\bserver\b/gi, '');
+    let reply = json.completion;
+    m.reply(reply);
 
-m.reply(reply);
-}
 };
 
 handler.help = ['bot'];
-handler.tags = ['ai'];
+handler.tags = ['fun'];
 handler.command = ['bot', 'alexa'];
 
 export default handler;
