@@ -17,6 +17,11 @@
       "required": false,
       "value": "null"
       },
+       "DATABASE_URL": {
+      "description": "your mongodb database url",
+      "required": false,
+      "value": ""
+      },
      "MODE": {
       "description": "mode public or private",
       "required": true,
