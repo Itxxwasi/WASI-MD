@@ -63,6 +63,7 @@
         "human-readable": "^0.2.1",
         "instagram-url-direct": "^1.0.12",
         "imagemaker.js": "*",
+        "imgur": "2.3.0",
         "javascript-obfuscator": "^4.0.0",
         "jimp": "^0.16.1",
         "jsdom": "^20.0.1",
