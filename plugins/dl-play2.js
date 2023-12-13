@@ -19,19 +19,19 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     m.react("📥")
     const yt_play = await search(args.join(' '));
     let additionalText = '';
-    if (command === 'play') {
+    if (command === 'playy') {
       additionalText = 'audio 🔊';
-    } else if (command === 'video2') {
+    } else if (command === 'video') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `✼ ••๑⋯ ❀🌟 Y O U T U B E 🌟❀ ⋯⋅๑•• ✼
+    const texto1 = `╭━━⊱🌟 Y O U T U B E 🌟⊱━━╮
     
-  ❒ Channel: ${yt_play[0].author.name}
-  ❏ Title: ${yt_play[0].title}
-  ❐ Duration: ${secondString(yt_play[0].duration.seconds)}
-  ❑ Views: ${yt_play[0].views}
-  ❒ Link: ${yt_play[0].url}
-⊱─━━━━⊱༻ⓅⓇⒾⓃⒸⒺⒷⓄⓉ༺⊰━━━━─⊰`;
+  🪩 Channel: ${yt_play[0].author.name}
+  📃 Title: ${yt_play[0].title}
+  ⏰ Duration: ${secondString(yt_play[0].duration.seconds)}
+  🎴 Views: ${yt_play[0].views}
+  🔗 Link: ${yt_play[0].url}
+⊱─━⊱༻ⓅⓇⒾⓃⒸⒺⒷⓄⓉ༺⊰━─⊰`;
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {
@@ -122,9 +122,9 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     return;
   }
 };
-handler.help = ['play', 'video'].map((v) => v + ' < query >');
+handler.help = ['playy', 'video'].map((v) => v + ' < query >');
 handler.tags = ['downloader'];
-handler.command = ['play', 'video'];
+handler.command = ['playy', 'video'];
 export default handler;
 
 async function search(query, options = {}) {
