@@ -722,6 +722,11 @@ Delete Chat
  */
 export async function deleteUpdate(message) {
     try {
+           
+       
+      if (typeof process.env.antidelete === 'undefined' || process.env.antidelete.toLowerCase() === 'false') return;
+
+
         const {
             fromMe,
             id,
@@ -733,16 +738,13 @@ export async function deleteUpdate(message) {
         if (!msg)
             return
         let chat = global.db.data.chats[msg.chat] || {}
-        if (chat.antiDelete)
-            return
+       
             await this.reply(msg.chat, `
-            ≡ deleted a message 
-            ┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
-            ▢ *Number :* @${participant.split`@`[0]} 
+            ✅ Deleted a message 
+            ┌─⊷🪩𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀🪩
+            │✫ -  *Number :* @${participant.split`@`[0]} 
             └─────────────
-            TO DEACTIVE , PRESS 
-            */off antidelete*
-            *.enable delete*
+             To deactivate delete the Antidelete var✅
             `.trim(), msg, {
                         mentions: [participant]
                     })
