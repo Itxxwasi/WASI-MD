@@ -26,7 +26,7 @@ const handler = async (m, {conn, args}) => {
       await conn.sendMessage(m.chat, {document: {url: n2}, caption: cap2, mimetype: 'video/mp4', fileName: n + `.mp4`}, {quoted: m});
     } catch {
       m.react(done)
-      await conn.reply(m.chat, '*[⛔]Error couldnt download the video*', m);
+      await conn.reply(m.chat, '*[⛔]error couldnt download the video*', m);
     }
   }
 };
