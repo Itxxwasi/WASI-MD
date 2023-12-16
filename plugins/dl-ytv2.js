@@ -31,4 +31,5 @@ const handler = async (m, {conn, args}) => {
   }
 };
 handler.command = /^ytmp4doc|ytvdoc|ytmp4.2|ytv.2|ytdl$/i;
+handler.tags = ['downloader'];
 export default handler;
