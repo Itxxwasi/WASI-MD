@@ -7,16 +7,6 @@
   "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
   "stack": "container",
   "env": {
-      "OPENAI_API_KEY": {
-      "description": "openai apikey",
-      "required": false,
-      "value": ""
-    },
-    "OPENAI_ORGANIZATION": {
-      "description": "openai organisation id",
-      "required": false,
-      "value": "null"
-      },
        "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
@@ -26,6 +16,11 @@
       "description": "mode public or private",
       "required": true,
       "value": "public"
+       },
+    "antidelete": {
+      "description": "bot will forward deleted messages if you make it true",
+      "required": false,
+      "value": "false"
        },
     "statusview": {
       "description": "make it true if you want bot to view status",
