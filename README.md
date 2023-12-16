@@ -40,6 +40,16 @@
 
 
 
+<h1 align="left">ÐΣPLOY TO REPLIT</h1> 
+
+1. If You don't have an account in Replit. Create a account.
+    <br>
+<p align="left"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-purple?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+
+2. Now Deploy
+    <br>
+<p align="left"><a href="https://repl.it/github/PRINCE-GDS/THE-PRINCE-BOT"> <img src="https://img.shields.io/badge/replit%20Deploy-purple?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+
 <h1 align="left">suᴘᴘoʀт ԍʀouᴘ ʟιɴκ</h1>
 
 
