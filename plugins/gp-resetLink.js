@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn }) => {
   let res = await conn.groupRevokeInvite(m.chat)
-  m.reply('✅ El enlace de grupo se ha restablecido correctamente\n\n📌 Enlace nuevo:\nhttps://chat.whatsapp.com/' + res)
+  m.reply('✅ Group link has been successfully reset\n\n📌 new link:\nhttps://chat.whatsapp.com/' + res)
 }
 handler.help = ['resetlink']
 handler.tags = ['group']
