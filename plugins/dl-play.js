@@ -19,7 +19,9 @@ const handler = async (m, {
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `🪩──『 *PRINCE PLAYER* 』──🪩`;
+    const infoText = `🎵🎧🎼『 *ᴘʀɪɴᴄᴇ ᴘʟᴀʏᴇʀ* 』🎼🎧🎵
+   
+    Rᴇᴘʟʏ ᴡɪᴛʜ ɴᴜᴍʙᴇʀ`;
 
 const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
@@ -43,7 +45,7 @@ const orderedLinks = result.allLinks.map((link, index) => {
                 delete: key
             });
             delete conn.GURUPLAY[m.sender];
-        }, 60 * 1000),
+        }, 180 * 1000),
     };
 };
 
