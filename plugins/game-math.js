@@ -2,46 +2,46 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.math = conn.math ? conn.math : {}
     
     if (args.length < 1) throw `
-  🧮 Dificultades disponibles : 
+  🧮 available difficulties : 
   
 ${Object.keys(modes).join(' | ')} 
 
-_📌Ejemplo : ${usedPrefix+command} normal_
+_📌Example : ${usedPrefix+command} normal_
 `.trim()
   let mode = args[0].toLowerCase()
   if (!(mode in modes)) throw `
-  🧮 Dificultades disponibles : 
+  🧮 available difficulties : 
   
  ${Object.keys(modes).join(' | ')}
 
-_📌Ejemplo : ${usedPrefix+command} normal_
+_📌Example : ${usedPrefix+command} normal_
 `.trim()
     
   let id = m.chat
-    if (id in conn.math) return conn.reply(m.chat, '⚠️ Todavía hay preguntas sin respuesta en este chat', conn.math[id][0])
+    if (id in conn.math) return conn.reply(m.chat, '⚠️ There are still unanswered questions in this chat', conn.math[id][0])
     let math = genMath(mode)
     conn.math[id] = [
-        await conn.reply(m.chat, `▢ CUANTO ES *${math.str}*=\n\n_Tiempo:_ ${(math.time / 1000).toFixed(2)} segundos\n\n🎁 Recompensa : ${math.bonus} XP`, m),
+        await conn.reply(m.chat, `▢ HOW MUCH IS IT *${math.str}*=\n\n_Time:_ ${(math.time / 1000).toFixed(2)} seconds\n\n🎁 Reward : ${math.bonus} XP`, m),
         math, 4,
         setTimeout(() => {
-            if (conn.math[id]) conn.reply(m.chat, `⏳ Se acabó el tiempo!\nLa respuesta es : *${math.result}*`, conn.math[id][0])
+            if (conn.math[id]) conn.reply(m.chat, `⏳ Time is over!\nThe answer is : *${math.result}*`, conn.math[id][0])
       delete conn.math[id]
         }, math.time)
     ]
 }
-handler.help = ['Mates <modo>']
+handler.help = ['Maths <modes>']
 handler.tags = ['game']
-handler.command = ['mates', 'mate', 'matemáticas', 'math'] 
+handler.command = ['maths', 'math', 'matemáticas', 'ganit'] 
 
 
 let modes = {
     noob: [-3, 3,-3, 3, '+-', 15000, 10],
-  fácil: [-10, 10, -10, 10, '*/+-', 20000, 40],
+  easy: [-10, 10, -10, 10, '*/+-', 20000, 40],
   normal: [-40, 40, -20, 20, '*/+-', 40000, 150],
-  difícil: [-100, 100, -70, 70, '*/+-', 60000, 350],
-  extremo: [-999999, 999999, -999999, 999999, '*/', 99999, 9999],
-  imposible: [-99999999999, 99999999999, -99999999999, 999999999999, '*/', 30000, 35000],
-  imposible2: [-999999999999999, 999999999999999, -999, 999, '/', 30000, 50000]
+  hard: [-100, 100, -70, 70, '*/+-', 60000, 350],
+  extreme: [-999999, 999999, -999999, 999999, '*/', 99999, 9999],
+  impossible: [-99999999999, 99999999999, -99999999999, 999999999999, '*/', 30000, 35000],
+  impossible2: [-999999999999999, 999999999999999, -999, 999, '/', 30000, 50000]
 }
 
 let operators = {
