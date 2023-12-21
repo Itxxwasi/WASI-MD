@@ -209,31 +209,30 @@ case 'autobio':
       
     default:
      if (!/[01]/.test(command)) return m.reply(`
-★☆──『 *ON/OFF MENU* 』──☆★
+╭━⊱⊱⊱『 *🪩ᴏɴ/ᴏғғ ᴍᴇɴᴜ🪩* 』⊱⊱⊱━╮
 
-◈──『 *🛡️OWNER🛡️*』───⳹☆★
-⛊ ${usedPrefix}on/off pmblocker
-⛊ ${usedPrefix}on/off onlydm
-⛊ ${usedPrefix}on/off grouponly
-⛊ ${usedPrefix}on/off autotype
-⛊ ${usedPrefix}on/off autobio
-╰──────────────⳹☆★
-◈──『 *ADMIN*』────⳹☆★
-⛊ ${usedPrefix}on/off welcome
-⛊ ${usedPrefix}on/off antilink
-⛊ ${usedPrefix}on/off autosticker
-⛊ ${usedPrefix}on/off detect
-⛊ ${usedPrefix}on/off antidelete
-⛊ ${usedPrefix}on/off jarvis
-⛊ ${usedPrefix}on/off antispam
-⛊ ${usedPrefix}on/off antitoxic
-╰──────────────⳹☆★ 
-◈──『 *USERS*』────⳹☆★
-⛊ ${usedPrefix}on/off chatbot 
-╰──────────────⳹☆★
-*🔻Example🔻 :*
-*${usedPrefix}on* welcome
-*${usedPrefix}off* welcome
+╭━━━━⊱『 *ᴏᴡɴᴇʀ*』⊱━━━━╮
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴘᴍʙʟᴏᴄᴋᴇʀ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴏɴʟʏᴅᴍ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ɢʀᴏᴜᴘᴏɴʟʏ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀᴜᴛᴏᴛʏᴘᴇ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀᴜᴛᴏʙɪᴏ
+╰━━━━━━━━━━━━━━━╯
+╭━━━━⊱『 *Aᴅᴍɪɴ*』⊱━━━━╮
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴡᴇʟᴄᴏᴍᴇ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀɴᴛɪʟɪɴᴋ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀᴜᴛᴏsᴛɪᴄᴋᴇʀ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴅᴇᴛᴇᴄᴛ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴊᴀʀᴠɪs
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀɴᴛɪsᴘᴀᴍ
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀɴᴛɪᴛᴏxɪᴄ
+╰━━━━━━━━━━━━━━╯
+╭━━━━⊱『 *ᴜsᴇʀs*』⊱━━━━╮
+│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴄʜᴀᴛʙᴏᴛ 
+╰━━━━━━━━━━━━━━╯
+*🔻Exᴀᴍᴘʟᴇ🔻 :*
+*${usedPrefix}ᴏɴ* ᴡᴇʟᴄᴏᴍᴇ
+*${usedPrefix}ᴏғғ* ᴡᴇʟᴄᴏᴍᴇ
 `)
       throw false
   }
