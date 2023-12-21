@@ -557,7 +557,7 @@ export async function participantsUpdate({
                   let nthMember = groupMetadata.participants.length;
                   let secondText = `Welcome, ${await this.getName(user)}, our ${nthMember}th member`;
           
-                  let welcomeApiUrl = `https://wecomeapi.onrender.com/welcome-image?username=${encodeURIComponent(
+                  let welcomeApiUrl = `https://welcome.guruapi.tech/welcome-image?username=${encodeURIComponent(
                     await this.getName(user)
                   )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
                     ppgp
@@ -579,7 +579,7 @@ export async function participantsUpdate({
                         title: global.botname,
                         body: "Welcome",
                         thumbnailUrl: welcomeApiUrl,
-                        sourceUrl: '',
+                        sourceUrl: 'https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
