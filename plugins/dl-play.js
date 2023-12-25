@@ -21,7 +21,7 @@ const handler = async (m, {
     const result = await searchAndDownloadMusic(text);
     const infoText = `🎵🎧🎼『 *ᴘʀɪɴᴄᴇ ᴘʟᴀʏᴇʀ* 』🎼🎧🎵
    
-    Rᴇᴘʟʏ ᴡɪᴛʜ ɴᴜᴍʙᴇʀ`;
+*Rᴇᴘʟʏ ᴡɪᴛʜ ɴᴜᴍʙᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏɴɢ*`;
 
 const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
@@ -45,7 +45,7 @@ const orderedLinks = result.allLinks.map((link, index) => {
                 delete: key
             });
             delete conn.GURUPLAY[m.sender];
-        }, 180 * 1000),
+        }, 240 * 1000),
     };
 };
 
