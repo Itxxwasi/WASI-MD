@@ -36,7 +36,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     if (command == 'play') {
     try {
     m.react("🎧")    
-    const q = '128kbps';
+    const q = '160kbps';
     const v = yt_play[0].url;
     const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
     const dl_url = await yt.audio[q].download();
