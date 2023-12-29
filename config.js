@@ -5,15 +5,15 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923042205427', 'Prince', false],
+  ['923135673658', 'wasi', false],
   [''], 
   [''],
 ]
 
 //global.pairingNumber = "" //put your bot number here
-global.mods = ['923042205427'] 
-global.prems = ['923042205427', '923042205427', '923042205427']
-global.allowed = ['923042205427']
+global.mods = ['923305673658'] 
+global.prems = ['923305673658', '923305673658', '923305673658']
+global.allowed = ['923305673658']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -37,17 +37,17 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'PЯINCΣ-BOT-MÐ'
-global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.botname = '𝗪𝗔𝗦𝗜-𝗠𝗗'
+global.princebot = '🛡️𝗪𝗔𝗦𝗜 𝗧𝗘𝗖𝗛🛡️'
+global.packname = '𝗪𝗔𝗦𝗜♥️' 
+global.author = '𝗧𝗘𝗖𝗛♥️' 
 global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
-global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
-global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
-global.thumb = fs.readFileSync('./Assets/Prince.png')
+global.princegp = 'https://chat.whatsapp.com/IhDUWhpX6OWI5q0cMh7tEj'
+global.menuvid = ''
+global.Princesc = '' 
+global.princeyt = 'https://youtube.com/@wasitech1'
+global.Princelog = 'https://i.imgur.com/ujxeU8g.jpeg'
+global.thumb = fs.readFileSync('./Assets/wasi.png')
 
 global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
 global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
