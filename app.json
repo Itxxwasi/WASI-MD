@@ -1,14 +1,14 @@
 {
-  "name": "whatsapp-bot (PRINCE-BOT)",
+  "name": "whatsapp-bot (WASI TECH)",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
+  "repository": "https://github.com/itxwasi/wasi-bot",
   "stack": "container",
   "env": {
        "DATABASE_URL": {
-      "description": "your mongodb database url",
+      "description": "your mongodb database url optional",
       "required": false,
       "value": ""
       },
