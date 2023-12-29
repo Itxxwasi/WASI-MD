@@ -23,7 +23,7 @@ import {
   ⛥ *Mode:* %mode
   ⛥ *Platform:* %platform
   ⛥ *Type:* NodeJs
-  ⛥ *Baileys:* Multi Device
+  ⛥ *Baileys:* Wasi multidevice
   ⛥ *Prefix:* [ *%_p* ]
   ⛥ *Uptime:* %muptime
   ⛥ *Database:*  %totalreg
@@ -54,7 +54,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "✅",
+ text: "🛜",
  key: m.key,
    }
   })
