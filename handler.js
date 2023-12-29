@@ -579,7 +579,7 @@ export async function participantsUpdate({
                         title: global.botname,
                         body: "Welcome",
                         thumbnailUrl: welcomeApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP',
+                        sourceUrl: 'https://chat.whatsapp.com/IhDUWhpX6OWI5q0cMh7tEj',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
@@ -601,8 +601,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'; // Assign default image URL
-                  ppgp = 'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'; // Assign default image URL
+                  pp = 'https://i.imgur.com/ujxeU8g.jpeg'; // Assign default image URL
+                  ppgp = 'https://i.imgur.com/ujxeU8g.jpeg'; // Assign default image URL
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
@@ -617,7 +617,7 @@ export async function participantsUpdate({
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'
+                    'https://i.imgur.com/ujxeU8g.jpeg'
                   )}`;
           
                   try {
@@ -795,7 +795,7 @@ export async function presenceUpdate(presenceUpdate) {
         const username = nouser[0].split("@")[0];
         const timeAfk = new Date() - user.afk;
         const caption = `\n@${username} has stopped being AFK and is currently typing.\n\nReason: ${
-            user.afkReason ? user.afkReason : "No Reason"
+            user.afkReason ? user.afkReason : "boss is busy"
           }\nFor the past ${timeAfk.toTimeString()}.\n`;
           
 
