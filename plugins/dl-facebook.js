@@ -9,7 +9,7 @@ if (!args[0] && !m.quoted) throw `✳️ Provide a Facebook link first \n📌 Ex
    try {
     let result = await fg.fbdl(args[0]);
     let tex = `
-┌─⊷ *⚪PRINCE FBDL⚪*
+┌─⊷ *⚪WASI-MD-FBDL⚪*
 ▢ *Title:* ${result.title}
 └───────────`;
     conn.sendFile(m.chat, result.videoUrl, 'fb.mp4', tex, m);
