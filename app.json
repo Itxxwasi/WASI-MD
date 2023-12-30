@@ -1,0 +1,55 @@
+{
+  "name": "whatsapp-bot (WASI TECH)",
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
+  "repository": "https://github.com/itxwasi/wasi-bot",
+  "stack": "container",
+  "env": {
+       "DATABASE_URL": {
+      "description": "your mongodb database url optional",
+      "required": false,
+      "value": ""
+      },
+     "MODE": {
+      "description": "mode public or private",
+      "required": true,
+      "value": "public"
+       },
+    "antidelete": {
+      "description": "bot will forward deleted messages if you make it true",
+      "required": false,
+      "value": "false"
+       },
+    "statusview": {
+      "description": "make it true if you want bot to view status",
+      "required": false,
+      "value": ""
+    },
+    "autoRead": {
+      "description": "make it true if you want bot to read messages",
+      "required": false,
+      "value": ""
+    },
+    "SESSION_ID": {
+      "description": "your session id",
+      "required": true,
+      "value": ""
+    }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
