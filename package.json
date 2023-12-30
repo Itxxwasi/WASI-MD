@@ -1,5 +1,5 @@
 { 
-    "name": "wasi-bot",
+    "name": "wasi-md",
     "version": "2.0.0",
     "description": "Advanced WhatsApp Bot",
     "main": "index.js",
@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/itxwasi/wasi-bot",
+    "homepage": "https://github.com/Itxxwasi/WASI-MD",
     "author": {
         "name": "WASI"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/itxwasi/wasi-bot.git"
+        "url": "git+https://github.com/Itxxwasi/WASI-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/itxwasi/wasi-bot/issues"
+        "url": "https://github.com/Itxxwasi/WASI-MD/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
