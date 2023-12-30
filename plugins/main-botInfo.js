@@ -56,13 +56,13 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER🧑‍💻*
- _PRINCE GDS_
+ _𝙒𝘼𝙎𝙄-𝙏𝙀𝘾𝙃_
 ▢ MY CONTACT NUMBER.
-  wa.me/923042205427
+  wa.me/923135673658
   
 ▢ MY BOT GC LINK.
-  https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS
-
+  
+https://chat.whatsapp.com/IhDUWhpX6OWI5q0cMh7tEj
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
@@ -76,6 +76,6 @@ m.react(done)
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'botinfo', 'bot']
+handler.command = ['info', 'infobot', 'botinfo', 'wasi']
 
 export default handler
