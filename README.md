@@ -20,7 +20,7 @@
 
 <h2 align="left">ＳＥＳＳＩＯＮ ＩＤ (ＰＡＩＲ ＣＯＤＥ)</h2>
 <p align="left">
-<a href="https://replit.com/@Itxxwasi/WASI-MD-PARING?v=1"><img height= "40" title="Author" src="https://img.shields.io/badge/SESSION ID(server-1)-black?style=for-the-badge&logo=replit"></a>
+<a href="https://replit.com/@Itxxwasi/WASI-MD-PARING-1?v=1"><img height= "40" title="Author" src="https://img.shields.io/badge/SESSION ID(server-1)-black?style=for-the-badge&logo=replit"></a>
 
 <a href="https://replit.com/@techmanwasi/WASI-MD-PARING"><img height= "40" title="Author" src="https://img.shields.io/badge/SESSION ID(server2)-black?style=for-the-badge&logo=replit"></a>
 
