@@ -5,15 +5,15 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923135673658', 'wasi', false],
+  ['923419159670', 'ᎷᏬᏂᏗᎷᎷᏗᎴ ᏗᏕᏇᏗᎴ 😎', false],
   [''], 
   [''],
 ]
 
-//global.pairingNumber = "" //put your bot number here
-global.mods = ['923305673658'] 
-global.prems = ['923305673658', '923305673658', '923305673658']
-global.allowed = ['923305673658']
+//global.pairingNumber = "923419159670" //put your bot number here
+global.mods = ['923419159670'] 
+global.prems = ['923419159670']
+global.allowed = ['923419159670']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -37,10 +37,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = '𝗪𝗔𝗦𝗜-𝗠𝗗'
-global.princebot = '🛡️𝗪𝗔𝗦𝗜 𝗧𝗘𝗖𝗛🛡️'
-global.packname = '𝗪𝗔𝗦𝗜♥️' 
-global.author = '𝗧𝗘𝗖𝗛♥️' 
+global.botname = 'ᎷᏬᏂᏗᎷᎷᏗᎴ ᏗᏕᏇᏗᎴ 😎'
+global.princebot = 'ᎷᏬᏂᏗᎷᎷᏗᎴ ᏗᏕᏇᏗᎴ 😎'
+global.packname = 'ᎷᏬᏂᏗᎷᎷᏗᎴ ᏗᏕᏇᏗᎴ 😎' 
+global.author = 'ᎷᏬᏂᏗᎷᎷᏗᎴ ᏗᏕᏇᏗᎴ 😎' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/IhDUWhpX6OWI5q0cMh7tEj'
 global.menuvid = ''
@@ -58,7 +58,7 @@ global.error = '❌'
 global.xmoji = '🌀' 
 
 global.multiplier = 69 
-global.maxwarn = '2' // máxima advertencias
+global.maxwarn = '1' // máxima advertencias
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
