@@ -188,7 +188,7 @@ import {
    throw e
   }
  }
- handler.command = /^(menu|h2|hh|help2|\?)$/i
+ handler.command = /^(menu|h|h1|help|\?)$/i
  
 
  
