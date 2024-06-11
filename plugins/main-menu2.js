@@ -9,7 +9,7 @@ import { promises } from 'fs'
 import { join } from 'path'
 const time = moment.tz('Asia/Karachi').format('HH')
 let wib = moment.tz('Asia/Karachi').format('HH:mm:ss')
-//import db from '../lib/database.js'
+import db from '../lib/database.js'
 
 let handler = async (m, { conn, usedPrefix, command}) => {
     let d = new Date(new Date + 3600000)
