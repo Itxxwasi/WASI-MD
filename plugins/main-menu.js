@@ -16,14 +16,12 @@ import {
  const defaultMenu = {
   before: `
   │✫ - 「🛡️ ${botname} 🛡️」 - ✫│\n
-  
- 
- 
-  ╭━━⊱『 *I N F O*』⊱━━╮
+  ${greetings}
+  ╭━━⊱『 *𝐈𝐍𝐅𝐎*』⊱━━╮
   ⛥ *Mode:* %mode
   ⛥ *Platform:* %platform
   ⛥ *Type:* NodeJs
-  ⛥ *Baileys:* DON-DEVIL
+  ⛥ *Baileys:* WASI-Baileys
   ⛥ *Prefix:* [ *%_p* ]
   ⛥ *Uptime:* %muptime
   ⛥ *Database:*  %totalreg
@@ -190,7 +188,7 @@ import {
    throw e
   }
  }
- handler.command = /^(menu2|h2|hh|help2|\?)$/i
+ handler.command = /^(menu|h2|hh|help2|\?)$/i
  
 
  
