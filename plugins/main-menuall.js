@@ -9,18 +9,16 @@ let handler = async (m, { conn, usedPrefix, command}) => {
       let lkr;
       switch (command) {
         case 'list':
-lkr = `╭━⊱「𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 *${botname}*
+lkr = `${readMore}
+
+*
+╭━⊱「𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 *${botname}*
 ┃>>   🚩𝐃𝐄𝐀𝐑 𝐔𝐒𝐄𝐑 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐃𝐎𝐍-𝐃𝐄𝐕𝐈𝐋 𝐌𝐃 
 ┃ >>  𝐀 𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 𝐁𝐔𝐈𝐋𝐃 𝐁𝐘 𝐖𝐀𝐒𝐈 𝐓𝐄𝐂𝐇
 ┃
-┃ *${usedPrefix}ᴍᴇɴᴜ2 ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
-┃ *${usedPrefix}ᴍᴇɴᴜ3 ғᴏʀ sᴘᴇᴄɪᴀʟ ᴍᴇɴᴜ ʟɪsᴛ*
 ┃
-┃
-┃ *${greeting}*
+  ┃sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙᴜɪʟᴅ ʙʏ *${botname}*
 
-
-${readMore}
   ✦ ───『 *ɢʀᴏᴜᴘ* 』─── ⚝
   ◈ .ɢᴇᴛʙɪᴏ <@ᴛᴀɢ/ʀᴇᴘʟʏ>  Ⓛ
   ◈ .ᴀɴɪᴍᴇϙᴜᴏᴛᴇ
