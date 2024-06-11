@@ -1,5 +1,5 @@
 {
-"name": "Prince-MD",
+"name": "wasi-md",
 "version": "1.7.0",
 "description": "Super Bot WhatsApp",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/don-devil/DON-DEVIL-MD",
+"homepage": "https://github.com/Itxxwasi/WASI-MD",
 "author": {
 "name": "DON DEVIL" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/don-devil/DON-DEVIL-MD.git" },
+"url": "git+https://github.com/Itxxwasi/WASI-MD.git" },
 
 "bugs": {
-"url": "https://github.com/don-devil/DON-DEVIL-MD/issues" },
+"url": "https://github.com/Itxxwasi/WASI-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.5.0",
