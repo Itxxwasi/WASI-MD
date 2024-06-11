@@ -23,19 +23,19 @@ import {
   ⛥ *Mode:* %mode
   ⛥ *Platform:* %platform
   ⛥ *Type:* NodeJs
-  ⛥ *Baileys:* Wasi multidevice
+  ⛥ *Baileys:* DON-DEVIL
   ⛥ *Prefix:* [ *%_p* ]
   ⛥ *Uptime:* %muptime
   ⛥ *Database:*  %totalreg
   ╰━━━━━━━━━━━━━━━╯
   
- ╭━━⊱「 *U S E R*」⊱━━╮
+ ╭━━⊱「 *𝐔𝐒𝐄𝐑*」⊱━━╮
  ⛥ *Name:* %name
  ╰━━━━━━━━━━━━━━━╯
  
  *%ucpn*
   
-  ╭━━⊱『 *I N F O  C M D*』⊱━━╮ 
+  ╭━━⊱『 *𝐂𝐌𝐃 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍*』⊱━━╮ 
   │ *%totalfeatures* Commands
   ╰──────────☆★
  %readmore
@@ -54,7 +54,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "🛜",
+ text: "🖤",
  key: m.key,
    }
   })
