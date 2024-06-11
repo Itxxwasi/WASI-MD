@@ -20,8 +20,8 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "ALIVE WASI MD ",
-          body: "PRINCE BOT",
+          title: ${botname}, //"ALIV ",
+          body: "WASI SER EDITX",
           thumbnailUrl: img,
           sourceUrl: 'https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j',
           mediaType: 1,
