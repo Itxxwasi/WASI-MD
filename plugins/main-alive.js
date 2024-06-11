@@ -2,7 +2,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 
     // Sound
     let name = m.pushName || conn.getName(m.sender)
-    var vn = "https://github.com/Itxxwasi/WASI-MD/raw/main/Assets/mp3/sound5.mp3"
+    var vn = "https://github.com/Itxxwasi/WASI-MD/raw/main/Assets/mp3/sound5.mp3,https://github.com/Itxxwasi/WASI-MD/raw/main/Assets/mp3/sound6.mp3,https://github.com/Itxxwasi/WASI-MD/raw/main/Assets/mp3/alive.mp3"
     let url = "https://github.com/Itxxwasi/WASI-MD"
     let murl = "https://youtube.com/@wasitech1"
     let img = "https://telegra.ph/file/e4e5a6722c1d5bf8ba1a5.jpg"
