@@ -2,10 +2,10 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 
     // Sound
     let name = m.pushName || conn.getName(m.sender)
-    var vn = "https://github.com/PRINCE-GDS/THE-PRINCE-BOT/raw/main/Assets/mp3/Audio5.mp3"
-    let url = "https://github.com/PRINCE-GDS/THE-PRINCE-BOT"
-    let murl = "https://youtu.be/DibiLc17dh0?si=xp9bQ-_frEyDB1-i"
-    let img = "https://i.imgur.com/oX4ES3B.jpeg"
+    var vn = "https://github.com/Itxxwasi/WASI-MD/raw/main/Assets/mp3/sound5.mp3"
+    let url = "https://github.com/Itxxwasi/WASI-MD"
+    let murl = "https://youtube.com/@wasitech1"
+    let img = "https://telegra.ph/file/e4e5a6722c1d5bf8ba1a5.jpg"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     let doc = {
         audio: {
@@ -19,10 +19,10 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "THE-PRINCE-BOT IS ALIVE",
-          body: "PRINCE BOT",
+          title: "ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ",
+          body: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴀsɪ ᴛᴇᴄʜ",
           thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP',
+          sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
