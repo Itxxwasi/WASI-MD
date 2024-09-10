@@ -1,6 +1,6 @@
 {
-  "name": "whatsapp-bot (WASI TECH)",
-  "description": " Whatsapp bot.",
+  "name": "❖Mʀ᭄Arhamנ☆×͜×",
+  "description": "Powered By Arham",
   "keywords": [
     "whatsapp bot"
   ],
@@ -20,12 +20,12 @@
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
        },
     "statusview": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
@@ -35,7 +35,7 @@
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0g3VkRrRmhVR2lqMUNUQ0c4dm1BRmJlMHlWQ01Lc0Y4YWJTSDlCWHcwYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibmQreXVLWWx3c2ZoRG5GZkZUaVFSaW5OYjRsZjg3eHFpWk01djE1djZVMD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXQzJocCtDbk1MN2N1eVFkcHEzWnN1eG9uTGJsYUlqUWlDVWZHcTFnMVVRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTL0oxL2dveWY3TTZCUjRET0gxNEs4QVA1cDd3a0E4U3pxbWMrWkE0V2dNPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNIK05qNWFiK3AzbHdkaThaaXJjZy8rZTVVNFV3OERBUllUWFltNjVXRlU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik82N3hDYm9NdC9ZcTFOV2JEakwxcFNHUkZNejdjb0RVRFhGeXhxRTZLd0E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEo5dXhCQVczRi9wRkJZNnQvbjU1TTlkbGNJRjVxRkpqVEJobU9CRU8xOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS29MNnFOdUpkQ0JRVFVvNWkrNWdUNE5uSHV3bGhhSmdVczAzNzJyY0JHZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZxZUNZNTNmaXZIaXd2OE1wVkdSemI5eUp2OGZ5bGd4SEhiSmFxSU5oYTIwNm1OL3pBSWlOR3hYVUtqYWI4T0NSM3BIT1IxTUxUdWhndEpUK3NsSUR3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTY3LCJhZHZTZWNyZXRLZXkiOiJSWDc1Wjg0NGdLeThwai9MQVRiVHh1cGtVN1dPUHdNZEp3TElPSHlrWHVNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjkyMzU1NjY2OTQ5OEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJEQkQ1N0Q4QzlFRjQ2ODg0RUEyNTFEREJFMUUwODE1QyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzE3OTMwMzA1fSx7ImtleSI6eyJyZW1vdGVKaWQiOiI5MjM1NTY2Njk0OThAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiMTk2MjM4RjU0NkI2ODM3NjJEQUI0MDBDNTVBNDA1MzIifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcxNzkzMDMwNn1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiM1JwbmJYRUlSNmFTcXFBWFUxcjZnZyIsInBob25lSWQiOiI2NTRkNDBkOS1iNGViLTQ4YmMtYmU0NC01MTBiNmQ5OTgyNjgiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK2ExLzFzRGNoNjhkWmd4Z01WVEZET1VYUzJzPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJGRlRuREpadmNySHdmcTlLK2Q5YVNMelBRZz0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJCUk5GOTZIOSIsIm1lIjp7ImlkIjoiOTIzNTU2NjY5NDk4OjYzQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IuKdlk3KgOGthEFyaGFt16DimIbDl82cw5cifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ1BPTjhzSUJFTG1TbHJNR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImhRWlpwc0FDUjAwOWhjbGY1NCtrZ2VWdERUT2poa0szYmRqR2dxREkxV2s9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkdIOXF1N0RlVkltd2RmZ2UxWXdlR3hNellFM0toNytKanRVQmtKUVBXSlhvV0VrMkdXdkxONDVJN3dLRVJqZVNXVUdPQUFNWW5vRnJYbWRDdGFOcUF3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJkR3NidFdpUFRSajZHdGRXd0Z2RXNncGNoUzllMXBtYWM2Qms3R2hxZXQ0dU5SRm9HdUFtUUx2YjBSOC9rRUJaU1ZLeHlsV2J4RnkzY0I4Y0o3aDRDZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkyMzU1NjY2OTQ5ODo2M0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJZVUdXYWJBQWtkTlBZWEpYK2VQcElIbGJRMHpvNFpDdDIzWXhvS2d5TlZwIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE3OTMwMzAwLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUc2WSJ9"
     }
     },
     "buildpacks": [
