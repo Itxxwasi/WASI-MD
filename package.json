@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/Itxxwasi/WASI-MD",
+"homepage": "https://github.com/Atiqkhan332211/WASI-MD",
 "author": {
 "name": "DON DEVIL" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Itxxwasi/WASI-MD.git" },
+"url": "git+https://github.com/Atiqkhan332211/WASI-MD.git" },
 
 "bugs": {
-"url": "https://github.com/Itxxwasi/WASI-MD/issues" },
+"url": "https://github.com/Atiqkhan332211/WASI-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.5.0",
