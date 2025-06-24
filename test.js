@@ -1,3 +1,11 @@
+/*
+code dead dont copy 
+*/
+
+
+
+
+
 import fs from 'fs'
 import path, { dirname } from 'path'
 import assert from 'assert'
