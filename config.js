@@ -19,8 +19,8 @@ module.exports = {
     
     // Owner Configuration - thats me lol
     owner: {
-        number: process.env.OWNER_NUMBER || '923001234567',
-        name: process.env.OWNER_NAME || 'WASI',
+        number: process.env.OWNER_NUMBER || 255773146241',
+        name: process.env.OWNER_NAME || 'ANUARI',
         isVerified: true // owner is always verified
     },
     
@@ -29,6 +29,7 @@ module.exports = {
         prefix: process.env.PREFIX || '.', // command prefix
         mode: process.env.MODE || 'public', // public, private, group
         autoRead: process.env.AUTO_READ === 'true', // auto read messages
+        autoStatusView: process.env.AUTO_STATUS_VIEW === 'true',
         autoTyping: process.env.AUTO_TYPING === 'true', // show typing indicator
         autoRecording: process.env.AUTO_RECORDING === 'true', // show recording
         autoReact: process.env.AUTO_REACT === 'true', // auto react to messages
