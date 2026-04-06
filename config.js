@@ -19,8 +19,8 @@ module.exports = {
     
     // Owner Configuration - thats me lol
     owner: {
-        number: process.env.OWNER_NUMBER || '923001234567',
-        name: process.env.OWNER_NAME || 'WASI',
+        number: process.env.OWNER_NUMBER || 255773146241',
+        name: process.env.OWNER_NAME || 'ANUARI',
         isVerified: true // owner is always verified
     },
     
@@ -28,6 +28,7 @@ module.exports = {
     settings: {
         prefix: process.env.PREFIX || '.', // command prefix
         mode: process.env.MODE || 'public', // public, private, group
+        autoStatusView: process.env.AUTO_STATUS_VIEW === "true",
         autoRead: process.env.AUTO_READ === 'true', // auto read messages
         autoTyping: process.env.AUTO_TYPING === 'true', // show typing indicator
         autoRecording: process.env.AUTO_RECORDING === 'true', // show recording
@@ -48,13 +49,14 @@ module.exports = {
     
     // Database Configuration
     database: {
-        type: process.env.DB_TYPE || 'mongodb',
-        url: process.env.MONGO_URI || process.env.DATABASE_URL,
-        name: 'wasimd_v7',
-        options: {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            serverSelectionTimeoutMS: 5000
+    type: process.env.DB_TYPE || 'sqlite',   // ← Change default to 'sqlite'
+    url: process.env.DATABASE_URL || './wasimd_v7.db',  // ← Use a local file for SQLite
+    name: 'wasimd_v7',
+    options: {
+        // Remove or keep these if the bot allows; they are Mongo-specific
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        serverSelectionTimeoutMS: 5000
         }
     },
     
